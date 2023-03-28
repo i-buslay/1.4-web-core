@@ -6,6 +6,9 @@ body {
 
 aside {
     width: 320px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     background-color: #FFFFFF;
     padding: 0 24px;
     font-size: 16px;
@@ -79,6 +82,10 @@ aside {
     text-decoration: none;
 }
 
+.a-navigation a:hover {
+    color: rgb(255,62,121);
+}
+
 .a-navigation label {
     display: block;
     margin-bottom: 32px;
@@ -118,7 +125,8 @@ aside {
 .a-footer {
     margin: 0;
     padding: 0;
-    margin-top: 268px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .feedback {
@@ -157,14 +165,6 @@ aside {
     font-weight: 600;
 }
 
-.a-footer {
-    padding-bottom: 32px;
-}
-
-.e-lang input[type="radio"] {
-    display: none;
-}
-
 .e-lang {
     display: flex;
     margin-top: 40px;
@@ -172,6 +172,10 @@ aside {
 
 .e-lang button {
     margin-left: 7px;
+}
+
+.e-lang button:hover {
+    color: rgb(255,62,121);
 }
 
 .e-lang button:first-of-type {
