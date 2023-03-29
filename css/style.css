@@ -5,6 +5,7 @@ body {
 }
 
 aside {
+    box-sizing: border-box;
     width: 320px;
     min-height: 100vh;
     display: grid;
