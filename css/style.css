@@ -4,7 +4,7 @@ body {
     font-family: TTLakes, sans-serif;
 }
 
-aside {
+main {
     width: 320px;
     min-height: 100vh;
     display: grid;
