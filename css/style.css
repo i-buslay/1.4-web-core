@@ -4,11 +4,6 @@ body {
     font-family: TTLakes, sans-serif;
 }
 
-main {
-    margin: 0;
-    padding: 0;
-}
-
 aside {
     width: 320px;
     min-height: 100vh;
